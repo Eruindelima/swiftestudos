@@ -306,7 +306,7 @@
 //}
 
 
-/* STRUCT */
+/************************** STRUCT ***************************************/
 
 
 
@@ -345,7 +345,15 @@
 //    func fortify(){
 //        print("Defences increased!")
 //    }
-//}
+//
+//
+//
+//
+//
+//mutating func harvesRice() { //se estiver criando método que modifica uma das
+//    resources["Rice"] = 100 //propriedades dentro da estrutura temos que marcar
+//}                           //esse método como MUTATING.
+//}                           //Ao fazer isso o "SELF"se comporta como um "VAR"podendo ser alterado livremente
 //
 //
 //var anotherTown = Town(name: "Nameless Island", citizens: ["Tom Hanks"], resources: ["Coconuts": 100])
@@ -357,10 +365,24 @@
 //
 //anotherTown.citizens.append("wilson")
 //ghostTown.fortify()
-
 //
-// exercicio de structures
+//  ****************************TIPOS DE FUNCÕES*****************************************
 //
+//func tipo1(){
+//      print("Hello")   FUNCÃO QUE CONTÉM APENAS ALGUM CODIGO PARA SER EXECUTADO
+//  }
+//
+//func tipo2(name: String){
+//      print("Hello\(name)") FUNCÕES COM ENTRADA QUE PODEM INCOPORAR ALGUNS DADOS PORTANTO ELE INCORPORA O HELLO E IMPRIME JUNTO COM NAME
+//}
+//
+//
+//func tipo3(name: String) -> Bool {
+//  if name == "angela" || name == Jack"
+//      return true             Esse tipo de funcão eu posso declarar o retorno esperado através da seta eu mando a informacão e eespero um resultado
+//} else {                      se eu de repente usar alguma condicao EX: var abrirPorta = tipo3(name: "angela") essa variavel espera um retorno do tipo bool
+//      return false
+//}
 //
 //
 //
