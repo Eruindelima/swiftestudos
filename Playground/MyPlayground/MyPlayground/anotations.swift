@@ -385,24 +385,32 @@
 //}
 //
 //
+//*****************************exempro de como criar uma visualizacao de tela do zero ****************************************
+//
+//import Foundation // este import representa um frameWork que é da apple para facilitar a escrita de códigos, para que nada fosse construido do zero.
+//UIKit esta em um nivel mais a cima do fundation com mais componeste que podemos usar.
+//import UIKit //sempre usar esse import para usar a superclassev UIViewController
 //
 //
+//class SecondViewController: UIViewController {
 //
+//    var bmiValue = "0.0"
 //
+//    override func viewDidLoad() {
+//        super.viewDidLoad()
 //
+//        view.backgroundColor = .red
 //
+//        let label = UILabel()
+//        label.text = bmiValue
+//        label.frame = CGRect(x: 0, y: 0, width: 100, height: 50) //propriedades que ficarao em tela quando houver transicão para outra tela feita
+//        view.addSubview(label)
+//    }
+//}
 //
+//let secondVC = SecondViewController() //secondVC é um objeto criado na view controller
+// ^ estou chamando a minha classe SecondViewController na classe principal da view controller.
+//secondVC.bmiValue = String(format: "%.1f", bmi)//estou acessando a variavel bimValue que esta na minha classe SecondViewController
+//                                              //e estou formatando o valor que seria um int em string para ser visualizado
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
+//self.present(secondVC, animated: true, completion: nil)// quando a animacão e apresentacao forem concluidas nao farei mais nada
