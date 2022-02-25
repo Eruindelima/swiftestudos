@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA1AF6E327C801660001C067 /* protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1AF6E227C801660001C067 /* protocols.swift */; };
+		BA1AF6E527C809F10001C067 /* heranca.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1AF6E427C809F10001C067 /* heranca.swift */; };
 		BAB4B04427B2DA2300DDD6E2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB4B04327B2DA2300DDD6E2 /* main.swift */; };
 		BAB4B04B27B2DABD00DDD6E2 /* loveCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB4B04A27B2DABD00DDD6E2 /* loveCalculator.swift */; };
 		BAB4B04D27B2DC5B00DDD6E2 /* anotations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAB4B04C27B2DC5B00DDD6E2 /* anotations.swift */; };
@@ -28,6 +30,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BA1AF6E227C801660001C067 /* protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = protocols.swift; sourceTree = "<group>"; };
+		BA1AF6E427C809F10001C067 /* heranca.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = heranca.swift; sourceTree = "<group>"; };
 		BAB4B04027B2DA2300DDD6E2 /* MyPlayground */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyPlayground; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAB4B04327B2DA2300DDD6E2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		BAB4B04A27B2DABD00DDD6E2 /* loveCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loveCalculator.swift; sourceTree = "<group>"; };
@@ -73,6 +77,8 @@
 				BAB4B04C27B2DC5B00DDD6E2 /* anotations.swift */,
 				BAB4B04E27B303AB00DDD6E2 /* leapYear.swift */,
 				BAB4B0FB27BADDC200DDD6E2 /* imparPar.swift */,
+				BA1AF6E227C801660001C067 /* protocols.swift */,
+				BA1AF6E427C809F10001C067 /* heranca.swift */,
 			);
 			path = MyPlayground;
 			sourceTree = "<group>";
@@ -135,6 +141,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAB4B04F27B303AB00DDD6E2 /* leapYear.swift in Sources */,
+				BA1AF6E327C801660001C067 /* protocols.swift in Sources */,
+				BA1AF6E527C809F10001C067 /* heranca.swift in Sources */,
 				BAB4B04427B2DA2300DDD6E2 /* main.swift in Sources */,
 				BAB4B05127B6CB7600DDD6E2 /* estruturas.swift in Sources */,
 				BAB4B04D27B2DC5B00DDD6E2 /* anotations.swift in Sources */,
