@@ -15,9 +15,9 @@
 //        }
 //    }
 //
-////    func fly(){
-////        print("The bird flaps its wings and lifts off into the skay.")
-////    } ele não irá mais o método fly na classe fpois agora ele pode ser usado na protocol e pode ser usado em qualquer lugar.
+//    func fly(){
+//        print("The bird flaps its wings and lifts off into the skay.")
+//    } ele não irá mais o método fly na classe fpois agora ele pode ser usado na protocol e pode ser usado em qualquer lugar.
 //}
 //
 //class Eagle: Bird, CanFly {
