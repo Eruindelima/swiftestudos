@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA348BBE27D919E20057D0E2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA348BBD27D919E20057D0E2 /* LoginViewController.swift */; };
+		BA348BC327D91C850057D0E2 /* ExtractViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA348BC227D91C850057D0E2 /* ExtractViewController.swift */; };
+		BA98AC2B27D8C3B400E4DE1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA98AC2A27D8C3B400E4DE1E /* AppDelegate.swift */; };
+		BA98AC2D27D8C3B400E4DE1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA98AC2C27D8C3B400E4DE1E /* SceneDelegate.swift */; };
+		BA98AC3227D8C3B400E4DE1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA98AC3027D8C3B400E4DE1E /* Main.storyboard */; };
+		BA98AC3427D8C3B700E4DE1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA98AC3327D8C3B700E4DE1E /* Assets.xcassets */; };
+		BA98AC3727D8C3B700E4DE1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA98AC3527D8C3B700E4DE1E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA348BBD27D919E20057D0E2 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BA348BC227D91C850057D0E2 /* ExtractViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractViewController.swift; sourceTree = "<group>"; };
+		BA98AC2727D8C3B400E4DE1E /* App Desafio Eruin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App Desafio Eruin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA98AC2A27D8C3B400E4DE1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA98AC2C27D8C3B400E4DE1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BA98AC3127D8C3B400E4DE1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA98AC3327D8C3B700E4DE1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA98AC3627D8C3B700E4DE1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA98AC3827D8C3B700E4DE1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA98AC2427D8C3B400E4DE1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA348BBF27D91A4D0057D0E2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BA348BBD27D919E20057D0E2 /* LoginViewController.swift */,
+				BA348BC227D91C850057D0E2 /* ExtractViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		BA348BC427D91F680057D0E2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BA98AC3027D8C3B400E4DE1E /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BA98AC1E27D8C3B400E4DE1E = {
+			isa = PBXGroup;
+			children = (
+				BA98AC2927D8C3B400E4DE1E /* App Desafio Eruin */,
+				BA98AC2827D8C3B400E4DE1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA98AC2827D8C3B400E4DE1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA98AC2727D8C3B400E4DE1E /* App Desafio Eruin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA98AC2927D8C3B400E4DE1E /* App Desafio Eruin */ = {
+			isa = PBXGroup;
+			children = (
+				BA98AC2A27D8C3B400E4DE1E /* AppDelegate.swift */,
+				BA98AC2C27D8C3B400E4DE1E /* SceneDelegate.swift */,
+				BA348BC427D91F680057D0E2 /* Views */,
+				BA348BBF27D91A4D0057D0E2 /* Controller */,
+				BA98AC3327D8C3B700E4DE1E /* Assets.xcassets */,
+				BA98AC3527D8C3B700E4DE1E /* LaunchScreen.storyboard */,
+				BA98AC3827D8C3B700E4DE1E /* Info.plist */,
+			);
+			path = "App Desafio Eruin";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA98AC2627D8C3B400E4DE1E /* App Desafio Eruin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA98AC3B27D8C3B700E4DE1E /* Build configuration list for PBXNativeTarget "App Desafio Eruin" */;
+			buildPhases = (
+				BA98AC2327D8C3B400E4DE1E /* Sources */,
+				BA98AC2427D8C3B400E4DE1E /* Frameworks */,
+				BA98AC2527D8C3B400E4DE1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "App Desafio Eruin";
+			productName = "App Desafio Eruin";
+			productReference = BA98AC2727D8C3B400E4DE1E /* App Desafio Eruin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA98AC1F27D8C3B400E4DE1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					BA98AC2627D8C3B400E4DE1E = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = BA98AC2227D8C3B400E4DE1E /* Build configuration list for PBXProject "App Desafio Eruin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA98AC1E27D8C3B400E4DE1E;
+			productRefGroup = BA98AC2827D8C3B400E4DE1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA98AC2627D8C3B400E4DE1E /* App Desafio Eruin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA98AC2527D8C3B400E4DE1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA98AC3727D8C3B700E4DE1E /* LaunchScreen.storyboard in Resources */,
+				BA98AC3427D8C3B700E4DE1E /* Assets.xcassets in Resources */,
+				BA98AC3227D8C3B400E4DE1E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA98AC2327D8C3B400E4DE1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA348BC327D91C850057D0E2 /* ExtractViewController.swift in Sources */,
+				BA348BBE27D919E20057D0E2 /* LoginViewController.swift in Sources */,
+				BA98AC2B27D8C3B400E4DE1E /* AppDelegate.swift in Sources */,
+				BA98AC2D27D8C3B400E4DE1E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BA98AC3027D8C3B400E4DE1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA98AC3127D8C3B400E4DE1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA98AC3527D8C3B700E4DE1E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA98AC3627D8C3B700E4DE1E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA98AC3927D8C3B700E4DE1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA98AC3A27D8C3B700E4DE1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA98AC3C27D8C3B700E4DE1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "App Desafio Eruin/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eruin.App-Desafio-Eruin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA98AC3D27D8C3B700E4DE1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "App Desafio Eruin/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eruin.App-Desafio-Eruin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA98AC2227D8C3B400E4DE1E /* Build configuration list for PBXProject "App Desafio Eruin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA98AC3927D8C3B700E4DE1E /* Debug */,
+				BA98AC3A27D8C3B700E4DE1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA98AC3B27D8C3B700E4DE1E /* Build configuration list for PBXNativeTarget "App Desafio Eruin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA98AC3C27D8C3B700E4DE1E /* Debug */,
+				BA98AC3D27D8C3B700E4DE1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA98AC1F27D8C3B400E4DE1E /* Project object */;
+}
