@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0668B4D8591B0115DD480CFA /* Pods_App_Desafio_Eruin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E9BF39DC5B57C61A47DDA72 /* Pods_App_Desafio_Eruin.framework */; };
 		BA348BBE27D919E20057D0E2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA348BBD27D919E20057D0E2 /* LoginViewController.swift */; };
 		BA348BC327D91C850057D0E2 /* ExtractViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA348BC227D91C850057D0E2 /* ExtractViewController.swift */; };
+		BA348BC727DB85AE0057D0E2 /* AcessModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA348BC627DB85AE0057D0E2 /* AcessModel.swift */; };
 		BA98AC2B27D8C3B400E4DE1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA98AC2A27D8C3B400E4DE1E /* AppDelegate.swift */; };
 		BA98AC2D27D8C3B400E4DE1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA98AC2C27D8C3B400E4DE1E /* SceneDelegate.swift */; };
 		BA98AC3227D8C3B400E4DE1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA98AC3027D8C3B400E4DE1E /* Main.storyboard */; };
@@ -17,8 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E9BF39DC5B57C61A47DDA72 /* Pods_App_Desafio_Eruin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_App_Desafio_Eruin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA348BBD27D919E20057D0E2 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		BA348BC227D91C850057D0E2 /* ExtractViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractViewController.swift; sourceTree = "<group>"; };
+		BA348BC627DB85AE0057D0E2 /* AcessModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcessModel.swift; sourceTree = "<group>"; };
 		BA98AC2727D8C3B400E4DE1E /* App Desafio Eruin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App Desafio Eruin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA98AC2A27D8C3B400E4DE1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA98AC2C27D8C3B400E4DE1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +30,8 @@
 		BA98AC3327D8C3B700E4DE1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA98AC3627D8C3B700E4DE1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA98AC3827D8C3B700E4DE1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB34DD366764B143C74674E /* Pods-App Desafio Eruin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App Desafio Eruin.release.xcconfig"; path = "Target Support Files/Pods-App Desafio Eruin/Pods-App Desafio Eruin.release.xcconfig"; sourceTree = "<group>"; };
+		EDB0A89A4F20AA2786BC09E7 /* Pods-App Desafio Eruin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-App Desafio Eruin.debug.xcconfig"; path = "Target Support Files/Pods-App Desafio Eruin/Pods-App Desafio Eruin.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,12 +39,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0668B4D8591B0115DD480CFA /* Pods_App_Desafio_Eruin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		198C43CB062D9A50E4E26AD2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDB0A89A4F20AA2786BC09E7 /* Pods-App Desafio Eruin.debug.xcconfig */,
+				DAB34DD366764B143C74674E /* Pods-App Desafio Eruin.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2E438D2E5FCEBB9913D038D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E9BF39DC5B57C61A47DDA72 /* Pods_App_Desafio_Eruin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BA348BBF27D91A4D0057D0E2 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -56,11 +81,21 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		BA348BC527DB85780057D0E2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA348BC627DB85AE0057D0E2 /* AcessModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		BA98AC1E27D8C3B400E4DE1E = {
 			isa = PBXGroup;
 			children = (
 				BA98AC2927D8C3B400E4DE1E /* App Desafio Eruin */,
 				BA98AC2827D8C3B400E4DE1E /* Products */,
+				198C43CB062D9A50E4E26AD2 /* Pods */,
+				2E438D2E5FCEBB9913D038D6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +112,7 @@
 			children = (
 				BA98AC2A27D8C3B400E4DE1E /* AppDelegate.swift */,
 				BA98AC2C27D8C3B400E4DE1E /* SceneDelegate.swift */,
+				BA348BC527DB85780057D0E2 /* Model */,
 				BA348BC427D91F680057D0E2 /* Views */,
 				BA348BBF27D91A4D0057D0E2 /* Controller */,
 				BA98AC3327D8C3B700E4DE1E /* Assets.xcassets */,
@@ -93,9 +129,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA98AC3B27D8C3B700E4DE1E /* Build configuration list for PBXNativeTarget "App Desafio Eruin" */;
 			buildPhases = (
+				EC6EA3DE125D9799EDA2FE84 /* [CP] Check Pods Manifest.lock */,
 				BA98AC2327D8C3B400E4DE1E /* Sources */,
 				BA98AC2427D8C3B400E4DE1E /* Frameworks */,
 				BA98AC2527D8C3B400E4DE1E /* Resources */,
+				D82FE7CEB1B498B07BFF35E4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +189,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D82FE7CEB1B498B07BFF35E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-App Desafio Eruin/Pods-App Desafio Eruin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-App Desafio Eruin/Pods-App Desafio Eruin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-App Desafio Eruin/Pods-App Desafio Eruin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC6EA3DE125D9799EDA2FE84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-App Desafio Eruin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BA98AC2327D8C3B400E4DE1E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -160,6 +240,7 @@
 				BA348BBE27D919E20057D0E2 /* LoginViewController.swift in Sources */,
 				BA98AC2B27D8C3B400E4DE1E /* AppDelegate.swift in Sources */,
 				BA98AC2D27D8C3B400E4DE1E /* SceneDelegate.swift in Sources */,
+				BA348BC727DB85AE0057D0E2 /* AcessModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,6 +384,7 @@
 		};
 		BA98AC3C27D8C3B700E4DE1E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDB0A89A4F20AA2786BC09E7 /* Pods-App Desafio Eruin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -321,6 +403,7 @@
 		};
 		BA98AC3D27D8C3B700E4DE1E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAB34DD366764B143C74674E /* Pods-App Desafio Eruin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -80,11 +80,11 @@
                                         <rect key="frame" x="0.0" y="546" width="414" height="272"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="bottom" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f0W-RF-HKm">
-                                                <rect key="frame" x="122" y="227" width="170" height="50"/>
+                                                <rect key="frame" x="122" y="194.66666666666663" width="170" height="55"/>
                                                 <color key="backgroundColor" red="0.0" green="0.4592103958" blue="0.89129447939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="170" id="3yZ-h3-5dk"/>
-                                                    <constraint firstAttribute="height" constant="50" id="7QA-s0-DgH"/>
+                                                    <constraint firstAttribute="height" constant="55" id="7QA-s0-DgH"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                 <state key="normal" title="Login">
@@ -97,7 +97,7 @@
                                         </subviews>
                                         <constraints>
                                             <constraint firstItem="f0W-RF-HKm" firstAttribute="centerX" secondItem="cir-uN-y30" secondAttribute="centerX" id="Gdh-UL-iQD"/>
-                                            <constraint firstItem="f0W-RF-HKm" firstAttribute="centerY" secondItem="cir-uN-y30" secondAttribute="bottom" constant="-20" id="r4F-RS-d0Q"/>
+                                            <constraint firstItem="f0W-RF-HKm" firstAttribute="centerY" secondItem="cir-uN-y30" secondAttribute="bottom" constant="-50" id="r4F-RS-d0Q"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -117,6 +117,10 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="loginButton" destination="f0W-RF-HKm" id="L3b-eh-RqW"/>
+                        <outlet property="passwordField" destination="CuR-qT-FJc" id="mbe-fn-vTj"/>
+                        <outlet property="userField" destination="RDa-ib-PAF" id="hzF-Ba-3pt"/>
+                        <outlet property="warningLabel" destination="eYX-5u-AD5" id="zl3-W4-a8w"/>
                         <segue destination="5KT-fP-vfi" kind="presentation" identifier="Information" id="21I-X1-Kh7"/>
                     </connections>
                 </viewController>
@@ -136,31 +140,31 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="230"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Teste da  lima Silva" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AjN-m3-kOa">
-                                        <rect key="frame" x="16" y="40" width="187" height="27.5"/>
+                                        <rect key="frame" x="16" y="40" width="187" height="27.666666666666671"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CPF/CNPJ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IMS-hn-ucz">
-                                        <rect key="frame" x="16" y="95" width="82" height="19.5"/>
+                                        <rect key="frame" x="16" y="95.333333333333329" width="82" height="20"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="000.000.000-00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DtS-2B-qqv">
-                                        <rect key="frame" x="16" y="122.5" width="173" height="24"/>
+                                        <rect key="frame" x="16" y="123.33333333333331" width="173" height="24"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Saldo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ks-pG-qJ2">
-                                        <rect key="frame" x="16" y="173.5" width="50" height="19.5"/>
+                                        <rect key="frame" x="16" y="174.33333333333334" width="50" height="19"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R$ 1.234,55" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ig0-9V-Q32">
-                                        <rect key="frame" x="16" y="193" width="128" height="29"/>
+                                        <rect key="frame" x="16" y="193.33333333333334" width="128" height="29"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -205,7 +209,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="98" id="Xiq-ee-9r4">
-                                        <rect key="frame" x="0.0" y="24.5" width="414" height="98"/>
+                                        <rect key="frame" x="0.0" y="24.333333969116211" width="414" height="98"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Xiq-ee-9r4" id="EM4-b5-KIl">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="98"/>
@@ -282,8 +286,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="icon_logout" width="8.5" height="8.5"/>
-        <image name="logo_solutis" width="133.5" height="30"/>
+        <image name="icon_logout" width="8.6666669845581055" height="8.6666669845581055"/>
+        <image name="logo_solutis" width="133.66667175292969" height="30.333333969116211"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
