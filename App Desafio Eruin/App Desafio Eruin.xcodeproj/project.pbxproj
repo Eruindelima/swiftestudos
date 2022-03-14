@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,9 @@
 		BA348BBE27D919E20057D0E2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA348BBD27D919E20057D0E2 /* LoginViewController.swift */; };
 		BA348BC327D91C850057D0E2 /* ExtractViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA348BC227D91C850057D0E2 /* ExtractViewController.swift */; };
 		BA348BC727DB85AE0057D0E2 /* AcessModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA348BC627DB85AE0057D0E2 /* AcessModel.swift */; };
+		BA6E3EB127DF6BE20077A0C3 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6E3EB027DF6BE20077A0C3 /* Service.swift */; };
+		BA6E3EB327DFB4220077A0C3 /* ExtractCellTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6E3EB227DFB4220077A0C3 /* ExtractCellTable.swift */; };
+		BA6E3EB527DFBD190077A0C3 /* ExtractModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6E3EB427DFBD190077A0C3 /* ExtractModel.swift */; };
 		BA98AC2B27D8C3B400E4DE1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA98AC2A27D8C3B400E4DE1E /* AppDelegate.swift */; };
 		BA98AC2D27D8C3B400E4DE1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA98AC2C27D8C3B400E4DE1E /* SceneDelegate.swift */; };
 		BA98AC3227D8C3B400E4DE1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA98AC3027D8C3B400E4DE1E /* Main.storyboard */; };
@@ -23,6 +26,9 @@
 		BA348BBD27D919E20057D0E2 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		BA348BC227D91C850057D0E2 /* ExtractViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractViewController.swift; sourceTree = "<group>"; };
 		BA348BC627DB85AE0057D0E2 /* AcessModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcessModel.swift; sourceTree = "<group>"; };
+		BA6E3EB027DF6BE20077A0C3 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		BA6E3EB227DFB4220077A0C3 /* ExtractCellTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractCellTable.swift; sourceTree = "<group>"; };
+		BA6E3EB427DFBD190077A0C3 /* ExtractModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractModel.swift; sourceTree = "<group>"; };
 		BA98AC2727D8C3B400E4DE1E /* App Desafio Eruin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App Desafio Eruin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA98AC2A27D8C3B400E4DE1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA98AC2C27D8C3B400E4DE1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,7 +58,6 @@
 				EDB0A89A4F20AA2786BC09E7 /* Pods-App Desafio Eruin.debug.xcconfig */,
 				DAB34DD366764B143C74674E /* Pods-App Desafio Eruin.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -84,9 +89,19 @@
 		BA348BC527DB85780057D0E2 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BA6E3EAF27DF6BAD0077A0C3 /* Service */,
 				BA348BC627DB85AE0057D0E2 /* AcessModel.swift */,
+				BA6E3EB427DFBD190077A0C3 /* ExtractModel.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		BA6E3EAF27DF6BAD0077A0C3 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				BA6E3EB027DF6BE20077A0C3 /* Service.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 		BA98AC1E27D8C3B400E4DE1E = {
@@ -118,6 +133,7 @@
 				BA98AC3327D8C3B700E4DE1E /* Assets.xcassets */,
 				BA98AC3527D8C3B700E4DE1E /* LaunchScreen.storyboard */,
 				BA98AC3827D8C3B700E4DE1E /* Info.plist */,
+				BA6E3EB227DFB4220077A0C3 /* ExtractCellTable.swift */,
 			);
 			path = "App Desafio Eruin";
 			sourceTree = "<group>";
@@ -237,10 +253,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA348BC327D91C850057D0E2 /* ExtractViewController.swift in Sources */,
+				BA6E3EB527DFBD190077A0C3 /* ExtractModel.swift in Sources */,
 				BA348BBE27D919E20057D0E2 /* LoginViewController.swift in Sources */,
 				BA98AC2B27D8C3B400E4DE1E /* AppDelegate.swift in Sources */,
+				BA6E3EB327DFB4220077A0C3 /* ExtractCellTable.swift in Sources */,
 				BA98AC2D27D8C3B400E4DE1E /* SceneDelegate.swift in Sources */,
 				BA348BC727DB85AE0057D0E2 /* AcessModel.swift in Sources */,
+				BA6E3EB127DF6BE20077A0C3 /* Service.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

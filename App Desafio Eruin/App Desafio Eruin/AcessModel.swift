@@ -9,17 +9,17 @@ import Foundation
 import CPF_CNPJ_Validator
 
 struct AcessModel: Decodable {
-    let name: String
+    let nome: String
     let cpf: String
-    let balance: Double
+    let saldo: Double
     let token: String
 }
 
 
 struct ValidationAcessModel {
     
-//    let user : String
-//    let password : String
+    let userField : String
+    let passwordfField : String
     
     
     func validateUserField(_ user: String) -> Bool {
@@ -29,7 +29,7 @@ struct ValidationAcessModel {
     }
     
     func validatePasswordField(_ password: String) -> Bool {
-        let passwordRegex = ".{7,20}"
+        let passwordRegex = "^(.*[a-z]*.)(.*[0-9]*.)(.*[!@#$%^&*]*.)$"
             let validateRegex = NSPredicate(format: "SELF MATCHES %@", passwordRegex)
         return validateRegex.evaluate(with: password)
     }

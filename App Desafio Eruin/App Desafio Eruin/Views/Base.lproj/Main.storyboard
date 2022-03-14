@@ -121,7 +121,7 @@
                         <outlet property="passwordField" destination="CuR-qT-FJc" id="mbe-fn-vTj"/>
                         <outlet property="userField" destination="RDa-ib-PAF" id="hzF-Ba-3pt"/>
                         <outlet property="warningLabel" destination="eYX-5u-AD5" id="zl3-W4-a8w"/>
-                        <segue destination="5KT-fP-vfi" kind="presentation" identifier="Information" id="21I-X1-Kh7"/>
+                        <segue destination="5KT-fP-vfi" kind="presentation" identifier="Informations" id="21I-X1-Kh7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -208,7 +208,7 @@
                                 <rect key="frame" x="0.0" y="230" width="414" height="666"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="98" id="Xiq-ee-9r4">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="extractCellTable" rowHeight="98" id="Xiq-ee-9r4" customClass="ExtractCellTable" customModule="App_Desafio_Eruin" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="24.333333969116211" width="414" height="98"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Xiq-ee-9r4" id="EM4-b5-KIl">
@@ -263,6 +263,13 @@
                                                 <constraint firstItem="B7i-jS-8w9" firstAttribute="top" secondItem="EM4-b5-KIl" secondAttribute="top" id="JT1-F2-ktG"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="actionTypeLabel" destination="bVM-52-CXy" id="JVc-GG-0gd"/>
+                                            <outlet property="cashValueLabel" destination="Wk1-IB-bv3" id="Uac-Th-wiV"/>
+                                            <outlet property="dataActionLabel" destination="LAB-Hf-Bb5" id="wZ6-qo-yGg"/>
+                                            <outlet property="descriptionTypeLabel" destination="ldN-eQ-94j" id="isL-Rb-JLG"/>
+                                            <outlet property="fieldExtract" destination="EM4-b5-KIl" id="ptb-F4-OYs"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -279,6 +286,12 @@
                             <constraint firstItem="YU5-ju-ZqN" firstAttribute="leading" secondItem="ows-ck-Odf" secondAttribute="leading" id="xwa-g4-Ysy"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="balanceUserLabel" destination="ig0-9V-Q32" id="Sks-vC-8X8"/>
+                        <outlet property="extractUser" destination="YU5-ju-ZqN" id="hPN-wx-vJ4"/>
+                        <outlet property="userCPFLabel" destination="DtS-2B-qqv" id="nhA-44-Ig6"/>
+                        <outlet property="userNameLabel" destination="AjN-m3-kOa" id="HbR-M1-jmy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ERn-dy-wZl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
