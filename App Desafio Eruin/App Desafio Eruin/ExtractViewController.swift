@@ -17,11 +17,13 @@ class ExtractViewController: UIViewController {
     
     @IBOutlet weak var extractUser: UITableView!
     
-    let extract: [ValuesExtract] = []
+    
+    
+    
+    
+    var extracts: [ValuesExtract] = []
     var service = Service()
-    
-    
-    //var user: LoginModel?
+    var user: AcessModel?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,10 +34,10 @@ class ExtractViewController: UIViewController {
 }
 
 
-
+// MARK: - TABLE VIEW
 extension ExtractViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return extract.count
+        return extracts.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -46,5 +48,32 @@ extension ExtractViewController: UITableViewDelegate, UITableViewDataSource {
         return cell
     }
     
+    func extractsMade(extracts: [ValuesExtract]) {
+        self.extracts = extracts
+        self.extractUser.reloadData()
+        SVProgressHUD.dismiss()
+    }
+}
+
+
+//MARK: - LOGOUT
+
+extension ExtractViewController {
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+            if segue.identifier == "logOut" {
+                let login = segue.destination as! LoginViewController
+                self.dismiss(animated: true, completion: nil)
+            }
+        }
+    
+    @IBAction func logOutButton(_ sender: UIButton) {
+        DispatchQueue.main.async {
+            self.performSegue(withIdentifier: "logOut", sender: self)
+        }
+    }
     
 }
+
+
+

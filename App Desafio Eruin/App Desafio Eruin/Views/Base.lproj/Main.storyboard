@@ -17,17 +17,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QaW-Jo-A4o" userLabel="GreyBackground">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                                 <color key="backgroundColor" red="0.88225668670000001" green="0.88240832089999999" blue="0.88224714989999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="QBH-8g-fdB">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uIw-iL-TA4" userLabel="Top View">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="272"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="268.66666666666669"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_solutis" translatesAutoresizingMaskIntoConstraints="NO" id="T8N-99-mlI">
-                                                <rect key="frame" x="82" y="91" width="250" height="90"/>
+                                                <rect key="frame" x="82" y="89.333333333333314" width="250" height="90"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="250" id="R8d-MD-M0z"/>
                                                     <constraint firstAttribute="height" constant="90" id="UW1-2b-4Ay"/>
@@ -40,10 +40,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rSd-zZ-es0" userLabel="Middle View">
-                                        <rect key="frame" x="0.0" y="273" width="414" height="272"/>
+                                        <rect key="frame" x="0.0" y="269.66666666666663" width="414" height="268.66666666666663"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="Yvw-vV-Gza">
-                                                <rect key="frame" x="42" y="64" width="330" height="144"/>
+                                                <rect key="frame" x="42" y="62.333333333333314" width="330" height="144"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eYX-5u-AD5">
                                                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
@@ -66,7 +66,7 @@
                                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="330" id="9zj-lg-GHf"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                        <textInputTraits key="textInputTraits" textContentType="password"/>
+                                                        <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                                                     </textField>
                                                 </subviews>
                                             </stackView>
@@ -77,10 +77,10 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cir-uN-y30" userLabel="Button View">
-                                        <rect key="frame" x="0.0" y="546" width="414" height="272"/>
+                                        <rect key="frame" x="0.0" y="539.33333333333337" width="414" height="268.66666666666663"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="bottom" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f0W-RF-HKm">
-                                                <rect key="frame" x="122" y="194.66666666666663" width="170" height="55"/>
+                                                <rect key="frame" x="122" y="191.33333333333326" width="170" height="55"/>
                                                 <color key="backgroundColor" red="0.0" green="0.4592103958" blue="0.89129447939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="170" id="3yZ-h3-5dk"/>
@@ -119,7 +119,7 @@
                     <connections>
                         <outlet property="loginButton" destination="f0W-RF-HKm" id="L3b-eh-RqW"/>
                         <outlet property="passwordField" destination="CuR-qT-FJc" id="mbe-fn-vTj"/>
-                        <outlet property="userField" destination="RDa-ib-PAF" id="hzF-Ba-3pt"/>
+                        <outlet property="userField" destination="RDa-ib-PAF" id="HgS-Bd-Smo"/>
                         <outlet property="warningLabel" destination="eYX-5u-AD5" id="zl3-W4-a8w"/>
                         <segue destination="5KT-fP-vfi" kind="presentation" identifier="Informations" id="21I-X1-Kh7"/>
                     </connections>
@@ -180,6 +180,9 @@
                                         <state key="normal" backgroundImage="icon_logout">
                                             <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="small" weight="medium"/>
                                         </state>
+                                        <connections>
+                                            <action selector="logOutButton:" destination="5KT-fP-vfi" eventType="touchUpInside" id="KJW-86-SiL"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.1276755631" green="0.51375448700000004" blue="0.7299925089" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -291,6 +294,7 @@
                         <outlet property="extractUser" destination="YU5-ju-ZqN" id="hPN-wx-vJ4"/>
                         <outlet property="userCPFLabel" destination="DtS-2B-qqv" id="nhA-44-Ig6"/>
                         <outlet property="userNameLabel" destination="AjN-m3-kOa" id="HbR-M1-jmy"/>
+                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="logOut" id="pbq-Rl-6rL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ERn-dy-wZl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

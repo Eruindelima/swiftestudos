@@ -10,7 +10,6 @@ import UIKit
 
 protocol AcessDelegate: NSObjectProtocol {
     func logInto(user: AcessModel)
-    func errorLog()
 }
 
 
@@ -34,7 +33,7 @@ class Service {
         
         let task = session.dataTask(with: request) {(data, response, error) in
             if error != nil {
-                print(error)
+                print(error!)
             }
             
 
