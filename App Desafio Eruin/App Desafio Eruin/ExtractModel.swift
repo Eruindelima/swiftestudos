@@ -10,7 +10,7 @@ import Foundation
 
 struct ValuesExtract: Decodable{
     
-    let date: String
-    let description: String
-    let value: String
+    let data: String
+    let descricao: String
+    let valor: Double
 }

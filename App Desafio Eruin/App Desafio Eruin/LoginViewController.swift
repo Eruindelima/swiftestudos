@@ -88,6 +88,8 @@ extension LoginViewController {
 }
 // MARK: - FINISH TRASITION VIEW
 
+
+// MARK: - RESET TEXT FIELD
 extension LoginViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
@@ -100,3 +102,4 @@ extension LoginViewController {
         self.passwordField.text = ""
     }
 }
+// MARK: - FINISH RESET FIELD
